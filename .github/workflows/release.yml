@@ -130,7 +130,7 @@ jobs:
       - name: Create checksums file
         run: |
           ls -lah .
-          sha512sum sdcard* > CECKSUMS.sha512
+          sha512sum sdcard* > CHECKSUMS.sha512
 
       - name: Upload Binaries to Release
         uses: alexellis/upload-assets@0.2.2
