@@ -137,4 +137,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
-          asset_paths: '["sdcard*", CHECKSUMS.sha512]'
+          asset_paths: '["sdcard*", "CHECKSUMS.sha512"]'
