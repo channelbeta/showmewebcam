@@ -10,6 +10,8 @@ fi
 
 export BOARDNAME=$1
 
+#aaa
+
 case "$BOARDNAME" in
   raspberrypi0)
   ;;
